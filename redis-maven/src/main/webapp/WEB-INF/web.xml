@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddStuServlet</servlet-name>
+  	<display-name>AddStuServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.AddStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelStudent</servlet-name>
+  	<display-name>DelStudent</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.DelStudent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SelectStuServlet</servlet-name>
+  	<display-name>SelectStuServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.SelectStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DelStudentServlet</servlet-name>
+  	<display-name>DelStudentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.DelStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeStudentServlet</servlet-name>
+  	<display-name>ChangeStudentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.ChangeStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SelectOneServlet</servlet-name>
+  	<display-name>SelectOneServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.redis.servlet.SelectOneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddStuServlet</servlet-name>
+  	<url-pattern>/AddStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelStudent</servlet-name>
+  	<url-pattern>/DelStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SelectStuServlet</servlet-name>
+  	<url-pattern>/SelectStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DelStudentServlet</servlet-name>
+  	<url-pattern>/DelStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeStudentServlet</servlet-name>
+  	<url-pattern>/ChangeStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SelectOneServlet</servlet-name>
+  	<url-pattern>/SelectOneServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
